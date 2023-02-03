@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture(r'walking.avi')
+cap = cv2.VideoCapture(r'the/path/to/the/video')
 
 """SHITOMASI CORNER DETECTION"""
 feature_params = dict(maxCorners=100,
